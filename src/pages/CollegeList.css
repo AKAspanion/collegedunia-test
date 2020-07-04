@@ -1,0 +1,20 @@
+.college-list {
+  padding: 56px;
+  transition: all 0.3s ease-in-out;
+}
+.college-list__title {
+  height: 18px;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  color: #444444;
+  line-height: 0.97;
+  padding: 0px 24px;
+  letter-spacing: normal;
+}
+.college-list__items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
