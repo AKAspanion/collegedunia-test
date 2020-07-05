@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/collegedunia-test/static/css/main.f61ff9fd.chunk.css",
+    "main.js": "/collegedunia-test/static/js/main.fae0c2c6.chunk.js",
+    "main.js.map": "/collegedunia-test/static/js/main.fae0c2c6.chunk.js.map",
+    "runtime-main.js": "/collegedunia-test/static/js/runtime-main.3a7f6668.js",
+    "runtime-main.js.map": "/collegedunia-test/static/js/runtime-main.3a7f6668.js.map",
+    "static/js/2.05d7774e.chunk.js": "/collegedunia-test/static/js/2.05d7774e.chunk.js",
+    "static/js/2.05d7774e.chunk.js.map": "/collegedunia-test/static/js/2.05d7774e.chunk.js.map",
+    "index.html": "/collegedunia-test/index.html",
+    "precache-manifest.dbbfffb7d11823410549da4669ab1435.js": "/collegedunia-test/precache-manifest.dbbfffb7d11823410549da4669ab1435.js",
+    "service-worker.js": "/collegedunia-test/service-worker.js",
+    "static/css/main.f61ff9fd.chunk.css.map": "/collegedunia-test/static/css/main.f61ff9fd.chunk.css.map",
+    "static/js/2.05d7774e.chunk.js.LICENSE.txt": "/collegedunia-test/static/js/2.05d7774e.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/collegedunia-test/static/media/DINPro-Regular.771eb93f.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3a7f6668.js",
+    "static/js/2.05d7774e.chunk.js",
+    "static/css/main.f61ff9fd.chunk.css",
+    "static/js/main.fae0c2c6.chunk.js"
+  ]
+}
