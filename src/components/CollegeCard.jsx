@@ -2,24 +2,26 @@ import React from "react";
 import { mdiStar } from "@mdi/js";
 import { Icon } from "@mdi/react";
 
-import "./CardCollege.css";
-// \d+(,\d+)*(\.\d*)?
-function CardCollege({
-  tags,
-  rating,
-  ranking,
-  promoted,
-  amenties,
-  discount,
-  offertext,
-  fees_cycle,
-  college_name,
-  nearest_place,
-  original_fees,
-  rating_remarks,
-  discounted_fees,
-  famous_nearest_places,
-}) {
+import "./CollegeCard.css";
+
+function CollegeCard({ detail, reference }) {
+  const {
+    tags,
+    rating,
+    ranking,
+    promoted,
+    amenties,
+    discount,
+    offertext,
+    fees_cycle,
+    college_name,
+    nearest_place,
+    original_fees,
+    rating_remarks,
+    discounted_fees,
+    famous_nearest_places,
+  } = detail;
+
   function getNearestFamous() {
     const matches = famous_nearest_places.match(/(\d+\.?\d*) *(kms?|Kms?)/g);
     return matches.reduce(
@@ -51,7 +53,7 @@ function CardCollege({
   }
 
   return (
-    <div className="college-card">
+    <div className="college-card" ref={reference}>
       <div className="college-card__image">
         <img alt="college" src="images/college_02.jpg" />
         <div className="college-card__tag-group">
@@ -129,4 +131,6 @@ function CardCollege({
   );
 }
 
-export default CardCollege;
+export default React.forwardRef((props, ref) => (
+  <CollegeCard {...props} reference={ref} />
+));

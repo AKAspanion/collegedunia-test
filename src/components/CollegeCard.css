@@ -7,7 +7,12 @@
   box-sizing: border-box;
   background-color: #ffffff;
   border: solid 1px #d3d3d3;
+  will-change: auto;
+  transition: box-shadow 0.3s ease-in-out;
   box-shadow: 0 0 19px 0 rgba(68, 68, 68, 0.1);
+}
+.college-card:hover {
+  box-shadow: 0 5px 19px rgba(68, 68, 68, 0.3);
 }
 
 .college-card__image {

@@ -1,1 +1,1 @@
-export { default as CardCollege } from "./CardCollege";
+export { default as CollegeCard } from "./CollegeCard";
