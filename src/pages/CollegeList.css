@@ -1,20 +1,32 @@
 .college-list {
-  padding: 56px;
+  margin: 0 auto;
+  text-align: left;
+  max-width: 1376px;
   transition: all 0.3s ease-in-out;
 }
 .college-list__title {
   height: 18px;
   font-size: 18px;
   font-weight: 500;
-  text-align: left;
   color: #444444;
   line-height: 0.97;
-  padding: 0px 24px;
-  letter-spacing: normal;
+  padding: 36px 16px 0px 16px;
 }
 .college-list__items {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+}
+
+@media (min-width: 640px) {
+  .college-list__title {
+    padding: 0px 16px 0px 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .college-list__title {
+    padding: 36px 16px 16px 24px;
+  }
 }
