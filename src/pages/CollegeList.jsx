@@ -1,7 +1,7 @@
 import React, { createElement, useState, useRef, useCallback } from "react";
 
 import "./CollegeList.css";
-import { CollegeCard } from "../components";
+import { CollegeCard, CollegeCardLoading } from "../components";
 import { useCollegeListPagination } from "../hooks";
 
 function CollegeList() {
@@ -39,8 +39,8 @@ function CollegeList() {
             key: index,
           })
         )}
+        {loading && [...Array(4)].map((e, i) => <CollegeCardLoading key={i} />)}
       </div>
-      <div> {loading && "Loading..."}</div>
     </div>
   );
 }

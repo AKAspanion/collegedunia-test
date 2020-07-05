@@ -12,6 +12,6 @@ export const getColleges = (pageNumber = 1, limit = 10) => {
       } catch (err) {
         reject(err);
       }
-    }, 500);
+    }, 1000);
   });
 };

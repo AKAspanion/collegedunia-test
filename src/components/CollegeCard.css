@@ -2,14 +2,48 @@
   max-width: 640px;
   min-height: 380px;
   margin: 52px 24px;
+  will-change: auto;
   border-radius: 4px;
   position: relative;
   box-sizing: border-box;
   background-color: #ffffff;
   border: solid 1px #d3d3d3;
-  will-change: auto;
   transition: box-shadow 0.3s ease-in-out;
   box-shadow: 0 0 19px 0 rgba(68, 68, 68, 0.1);
+}
+.college-card__loading-wrapper {
+  width: 640px;
+  min-height: 380px;
+  margin: 52px 24px;
+  border-radius: 4px;
+  border: solid 1px #d3d3d3;
+}
+.college-card__loading-text {
+  padding: 16px;
+}
+.college-card__loading {
+  width: 100%;
+  border-radius: 4px;
+  background: #e2e2e2;
+}
+.loading-image {
+  height: 236px;
+}
+.loading-title {
+  width: 50%;
+  height: 24px;
+  margin-bottom: 12px;
+}
+.loading-subtitle {
+  width: 60%;
+  height: 16px;
+  margin-bottom: 12px;
+}
+.loading-ribbon {
+  width: 75%;
+  height: 32px;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
 }
 .college-card:hover {
   box-shadow: 0 5px 19px rgba(68, 68, 68, 0.3);
